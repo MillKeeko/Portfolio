@@ -1,74 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" 
-        content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <title id="pageTitle"></title>
-  </head>
-  <body>
-    <div>
-        <h1><span id="contentTitle"></span></h1>
-            <h2><span id="myName"></span></h2>
-                <p id="bio"></p>
-    </div>
-        <h2><span id="sub1"></span></h2>
-        <div>
-            <h3><span id="sub1proj1"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" 
+            content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title id="pageTitle"></title>
+    </head>
+    <body>
+        <header>
+            <h1 id="contentTitle"></h1>
+            <h2 id="myName"></h2>
+        </header>
+
+        <div class="sectionBreak">
+            <h2 id="projects"></h2>
         </div>
-        <div>
-            <h3><span id="sub1proj2"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+
+        <div class="projectContainer">
+            <div class="projectRow">
+                <div class="project">
+                    <a href="#projSection1">
+                        <img src="images/chatIcon.png">
+                        <h2 name="proj1"></h2>
+                    </a>
+                </div>   
+
+                <div class="project">
+                    <a href="#projSection2">
+                        <img src="images/histogram.png">
+                        <h2 name="proj2"></h2>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="#projSection3">
+                        <img src="images/fileTransfer.png">
+                        <h2 name="proj3"></h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="projectRow">
+                <div class="project">
+                    <a href="#projSection4">
+                        <img src="images/GCTP.png">
+                        <h2 name="proj4"></h2>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="#projSection5">
+                        <img src="images/blinkingLights.png">
+                        <h2 name="proj5"></h2>
+                    </a>
+                </div>
+
+                <div class="project">    
+                    <a href="#projSection6">
+                        <img src="images/HiLo.png">
+                        <h2 name="proj6"></h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="projectRow">
+                <div class="project">
+                    <a href="#projSection7">
+                        <img src="images/TMS.png">
+                        <h2 name="proj7"></h2>
+                    </a>
+                </div>
+            </div>
         </div>
-        <h2><span id="sub2"></span></h2>
-        <div>
-            <h3><span id="sub2proj1"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+
+        <div class="sectionBreak">
+            <h2 id="aboutMe"></h2>
         </div>
-        <h2><span id="sub3"></span></h2>
-        <div>
-            <h3><span id="sub3proj1"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+
+        <p id="bio"></p>
+
+        <div class="sectionBreak" id="projSection1">
+            <h2 name="proj1"></h2>
         </div>
-        <h2><span id="sub4"></span></h2>
-        <div>
-            <h3><span id="sub4proj1"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+
+        <div class="sectionBreak" id="projSection2">
+            <h2 name="proj2"></h2>
         </div>
-        <h2><span id="sub5"></span></h2>
-        <div>
-            <h3><span id="sub5proj1"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+
+        <div class="sectionBreak" id="projSection3">
+            <h2 name="proj3"></h2>
         </div>
-        <h2><span id="sub6"></span></h2>
-        <div>
-            <h3><span id="sub6proj1"></span></h3>
-                <p name="cat1"></p>
-                <p name="cat2"></p>
-                <p name="cat3"></p>
-                <p name="desc"></p>
+
+        <div class="sectionBreak" id="projSection4">
+            <h2 name="proj4"></h2>
         </div>
+
+        <div class="sectionBreak" id="projSection5">
+            <h2 name="proj5"></h2>
+        </div>
+
+        <div class="sectionBreak" id="projSection6">
+            <h2 name="proj6"></h2>
+        </div>
+
+        <div class="sectionBreak" id="projSection7">
+            <h2 name="proj7"></h2>
+        </div>
+
         <script src="strings.js"></script>
-  </body>
+    </body>
 </html>
 
