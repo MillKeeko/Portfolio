@@ -13,7 +13,7 @@ header {
     margin: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 864px) {
     h1 {
         font-size: 18px;
         font-weight: bold;
