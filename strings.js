@@ -11,7 +11,7 @@ document.getElementById("myName").textContent = myName;
 
 
 //  Project Titles
-const proj1 = "Chat-System";
+const proj1 = "Chat System";
 const proj2 = "Histogram";
 const proj3 = "File Transfer Protocol";
 const proj4 = "Great Canadian Trip Planner";
