@@ -8,7 +8,6 @@ const bio = "I have been developing software since 2021. I have completed 2 year
 document.getElementById("pageTitle").textContent = pageTitle;
 document.getElementById("contentTitle").textContent = contentTitle;
 document.getElementById("myName").textContent = myName;
-document.getElementById("bio").textContent = bio;
 
 
 //  Project Titles
@@ -48,29 +47,6 @@ for (let i=0; i<proj7Elements.length; i++) {
     proj7Elements[i].textContent = proj7;
 }
 
-
-
 // Section Titles
-const projects = "Projects";
-const aboutMe = "About Me";
-document.getElementById("aboutMe").textContent = aboutMe;
-document.getElementById("projects").textContent = projects;
-
-
-/*//  Project Categories
-const desc = "Description: "
-const cat1 = "Group Members: "
-const cat2 = "Technologies: "
-const cat3 = "Line Count: "
-document.getElementsByName("desc").forEach(function(element, i) {
-    element.textContent = desc;
-})
-document.getElementsByName("cat1").forEach(function(element, i) {
-    element.textContent = cat1;
-})
-document.getElementsByName("cat2").forEach(function(element, i) {
-    element.textContent = cat2;
-})
-document.getElementsByName("cat3").forEach(function(element, i) {
-    element.textContent = cat3;
-})*/
+const schoolProjects = "School Projects";
+document.getElementById("schoolProjects").textContent = schoolProjects;
