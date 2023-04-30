@@ -28,12 +28,12 @@
     flex-direction: row;
     justify-content: center;
     margin: 10px auto 10px auto;
+    border-radius: 25px;
     width: 95%;
     max-width: 1080px;
 }
 .project img {
     min-width: 64px;
-    max-width: 64px;
     max-width: 64px;
     max-height: 64px;
     object-fit: cover;
@@ -63,6 +63,7 @@
     font-size: 18px;
     text-align: left;
     background-color: #FFFFFF;
+    border-radius: 25px;
 }
 
  
