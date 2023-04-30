@@ -9,10 +9,10 @@ html * {
 
 h1 {
     font-size: 36px;
-    font-weight: bold;
     text-align: center;
     padding: 10px auto 10px auto;
     margin: 10px auto 10px auto;
+    font-weight: bold;
 }
 h2 {
     font-size: 24px;
@@ -49,80 +49,16 @@ header {
     margin: 2vw auto 2vw auto;
     width: 95%;
     max-width: 1080px;
-
 }
 
 /*Project icon/title links*/
 
-.projectContainer {
-    display: flex;
-    flex-direction: column;
-}
-.projectRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px auto 10px auto;
-    width: 95%;
-    max-width: 1080px;
-}
-.project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px;
-    border-color: #263523;
-    border-style: solid;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-    padding: 1.5vw;
-    margin: auto 1vw auto 1vw;
-    width: 27vw;
-    height: 27vw;
-    max-width: 256px;
-    max-height: 256px;
-    text-align: center;
-}
-.project img {
-    width: 13vw;
-    max-width: 128px;
-    max-height: 128px;
-    object-fit: cover;
-    background-color: #FFFFFF;
-}
-.project h2 {
-    font-size: 24px;
-    width: 99%;
-    font-weight: bold;
-    text-align: center;
-    background-color: #FFFFFF;
-}
+
 .project a {
     background-color: #FFFFFF;
     text-decoration: none;
 }
-@media (max-width: 1080px) {
-    .project h2 {
-        font-size: 20px;
-    }
-}
-@media (max-width: 768px) {
-    .project h2 {
-        font-size: 16px;
-    }
-}
-@media (max-width: 480px) {
-    .project h2 {
-        font-size: 12px;
-    }
-}
-.project:hover {
-    width: 28vw;
-    height: 28vw;
-    max-width: 270px;
-    max-height: 270px;
-    background-color: #D2E7D6;
-}
+.project:hover,
 .project:hover img,
 .project:hover h2 ,
 .project:hover a {
@@ -171,41 +107,12 @@ header {
     max-height: 256px;
     text-align: center;
 }
-.techBox h2 {
-    font-size: 22px;
-    background-color: #FFFFFF;
-}
-.techBox p {
-    font-size: 18px;
-    text-align: left;
-    background-color: #FFFFFF;
-}
-@media (max-width: 1080px) {
-    .techBox h2 {
-        font-size: 18px;
-    }
-    .techBox p {
-        font-size: 15px;
-    }
-}
-@media (max-width: 768px) {
-    .techBox h2 {
-        font-size: 14px;
-    }
-    .techBox p {
-        font-size: 12px;
-    }
-}
-@media (max-width: 480px) {
-    .techBox h2 {
-        font-size: 11px;
-    }
-    .techBox p {
-        font-size: 10px;
-    }
-}
 .techBox ul,
 .techBox li {
     background-color: #FFFFFF;
 }
- 
+
+
+
+
+  

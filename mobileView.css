@@ -1,0 +1,103 @@
+/*Project icon/title links*/
+
+.projectRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    width: 95%;
+    max-width: 1080px;
+}
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    /*Project icon/title links*/
+
+    .project {
+        width: 27vw;
+        height: 27vw;
+        max-width: 192px;
+        max-height: 192px;
+        min-width: 96px;
+        min-height: 96px;
+    }
+    .project img {
+        width: 11vw;
+        max-width: 128px;
+        max-height: 128px;
+        object-fit: cover;
+        background-color: #FFFFFF;
+    }
+    .mobileIcons {
+        display: block;
+    }
+    .desktopIcons {
+        display: none;
+    }   
+    .project h2 {
+        font-size: 16px;
+    }
+    .project:hover {
+        max-width: 208px;
+        max-height: 208px;
+    }
+
+    /*Project Info*/
+
+    .techBox h2 {
+        font-size: 15px;
+    }
+    .techBox p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*Project icon/title links*/
+
+    .project h2 {
+        font-size: 16px;
+    }
+    .project:hover {
+        width: 28vw;
+        height: 28vw;
+    }
+
+    /*Project Info*/
+
+    .techBox h2 {
+        font-size: 14px;
+    }
+    .techBox p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    /*Project icon/title links*/
+
+    .project img {
+        min-width: 64px;
+        max-width: 64px;
+        max-width: 64px;
+        max-height: 64px;
+        object-fit: cover;
+        background-color: #FFFFFF;
+    }
+    .project h2 {
+        font-size: 11px;
+    }
+
+    /*Project Info*/
+
+    .techBox h2 {
+        font-size: 9px;
+    }
+    .techBox p {
+        font-size: 8px;
+    }
+}
+

@@ -46,8 +46,8 @@ for (let i=0; i<proj7Elements.length; i++) {
 }
 
 //  Section Titles
-const schoolProjects = "Browse Projects";
-document.getElementById("schoolProjects").textContent = schoolProjects;
+const projects = "Browse Projects";
+document.getElementById("projects").textContent = projects;
 
 //  Project Info Headers
 const techs = "Technologies";
