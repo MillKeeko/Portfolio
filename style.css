@@ -21,7 +21,6 @@ h2 {
     margin: 10px auto 10px auto;
 }
 p {
-    font-size: 1vw;
     width: 90%;
     margin: auto;
     max-width: 1023px;
@@ -33,8 +32,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.5vw;
-    margin: 0.5vw;
+    padding: 10px;
+    margin: 10px;
 }
 
 /*Section Break*/
@@ -94,10 +93,8 @@ header {
     border-style: solid;
     border-radius: 25px;
     background-color: #FFFFFF;
-    padding: 1.5vw;
-    margin: 1vw;
-    width: 22vw;
-    height: 22vw;
+    padding: 15px;
+    margin: 10px;
     max-width: 244px;
     max-height: 244px;
 }
@@ -113,8 +110,8 @@ header {
     border-style: solid;
     border-radius: 25px;
     background-color: #D2E7D6;
-    padding: 1.5vw;
-    margin: auto 1vw auto 1vw;
+    padding: 15px;
+    margin: auto 10px auto 10px;
     width: 50vw;
     height: 50vw;
     max-width: 550px;
