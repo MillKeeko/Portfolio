@@ -4,11 +4,9 @@
 const pageTitle = "WA Portfolio";
 const contentTitle = "Portfolio";
 const myName = "William Anderson";
-const bio = "I have been developing software since 2021. I have completed 2 years of Software Engineering Technology at Conestoga College, and I graduated from the University of Waterloo with a Bachelor of Arts in Economics in 2018.";
 document.getElementById("pageTitle").textContent = pageTitle;
 document.getElementById("contentTitle").textContent = contentTitle;
 document.getElementById("myName").textContent = myName;
-
 
 //  Project Titles
 const proj1 = "Chat System";
@@ -47,6 +45,62 @@ for (let i=0; i<proj7Elements.length; i++) {
     proj7Elements[i].textContent = proj7;
 }
 
-// Section Titles
-const schoolProjects = "School Projects";
+//  Section Titles
+const schoolProjects = "Browse Projects";
 document.getElementById("schoolProjects").textContent = schoolProjects;
+
+//  Project Info Headers
+const techs = "Technologies";
+const techsElements = document.getElementsByName("techs");
+for (let i=0; i<techsElements.length; i++) {
+    techsElements[i].textContent = techs;
+}
+
+//  Project 1 Technologies
+const proj1Tech1 = "C";
+const proj1Tech2 = "Linux";
+document.getElementById("proj1Tech1").textContent = proj1Tech1;
+document.getElementById("proj1Tech2").textContent = proj1Tech2;
+
+//  Project 2 Technologies
+const proj2Tech1 = "C";
+const proj2Tech2 = "Linux";
+document.getElementById("proj2Tech1").textContent = proj2Tech1;
+document.getElementById("proj2Tech2").textContent = proj2Tech2;
+
+//  Project 3 Technologies
+const proj3Tech1 = "C++";
+const proj3Tech2 = "Visual Studio";
+document.getElementById("proj3Tech1").textContent = proj3Tech1;
+document.getElementById("proj3Tech2").textContent = proj3Tech2;
+
+//  Project 4 Technologies
+const proj4Tech1 = "Java";
+const proj4Tech2 = "Android Studio";
+document.getElementById("proj4Tech1").textContent = proj4Tech1;
+document.getElementById("proj4Tech2").textContent = proj4Tech2;
+
+//  Project 5 Technologies
+const proj5Tech1 = "C";
+const proj5Tech2 = "Assembly";
+document.getElementById("proj5Tech1").textContent = proj5Tech1;
+document.getElementById("proj5Tech2").textContent = proj5Tech2;
+
+
+//  Project 6 Technologies
+const proj6Tech1 = "C#";
+const proj6Tech2 = "WPF";
+const proj6Tech3 = "Visual Studio";
+document.getElementById("proj6Tech1").textContent = proj6Tech1;
+document.getElementById("proj6Tech2").textContent = proj6Tech2;
+document.getElementById("proj6Tech3").textContent = proj6Tech3;
+
+//  Project 7 Technologies
+const proj7Tech1 = "C#";
+const proj7Tech2 = "MySQL";
+const proj7Tech3 = "WPF";
+const proj7Tech4 = "Visual Studio";
+document.getElementById("proj7Tech1").textContent = proj7Tech1;
+document.getElementById("proj7Tech2").textContent = proj7Tech2;
+document.getElementById("proj7Tech3").textContent = proj7Tech3;
+document.getElementById("proj7Tech4").textContent = proj7Tech4;

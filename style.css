@@ -69,7 +69,6 @@ header {
 .project {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     border: 2px;
     border-color: #263523;
@@ -85,7 +84,7 @@ header {
     text-align: center;
 }
 .project img {
-    width: 14vw;
+    width: 13vw;
     max-width: 128px;
     max-height: 128px;
     object-fit: cover;
@@ -130,4 +129,83 @@ header {
     background-color: #D2E7D6;
 }
 
+/*Project Info*/
+
+.projectInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto 10px auto;
+    width: 95%;
+    max-width: 1080px;
+}
+.descriptionBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-color: #263523;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 1.5vw;
+    margin: auto 1vw auto 1vw;
+    width: 63vw;
+    height: 27vw;
+    max-width: 620px;
+    max-height: 256px;
+    text-align: center;
+}
+.techBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-color: #263523;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 1.5vw;
+    margin: auto 1vw auto 1vw;
+    width: 18vw;
+    height: 27vw;
+    max-width: 200px;
+    max-height: 256px;
+    text-align: center;
+}
+.techBox h2 {
+    font-size: 22px;
+    background-color: #FFFFFF;
+}
+.techBox p {
+    font-size: 18px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+@media (max-width: 1080px) {
+    .techBox h2 {
+        font-size: 18px;
+    }
+    .techBox p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .techBox h2 {
+        font-size: 14px;
+    }
+    .techBox p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .techBox h2 {
+        font-size: 11px;
+    }
+    .techBox p {
+        font-size: 10px;
+    }
+}
+.techBox ul,
+.techBox li {
+    background-color: #FFFFFF;
+}
  
