@@ -38,7 +38,7 @@
         display: none;
     }   
     .project h2 {
-        font-size: 16px;
+        font-size: 2.5vw;
     }
     .project:hover {
         max-width: 208px;
@@ -58,9 +58,6 @@
 @media (max-width: 768px) {
     /*Project icon/title links*/
 
-    .project h2 {
-        font-size: 2.5vw;
-    }
     .project:hover {
         width: 28vw;
         height: 28vw;
@@ -83,11 +80,6 @@
         min-width: 56px;
         max-width: 56px;
         max-height: 56px;
-        object-fit: cover;
-        background-color: #FFFFFF;
-    }
-    .project h2 {
-        font-size: 10px;
     }
 
     /*Project Info*/
@@ -104,24 +96,32 @@
     /*Project icon/title links*/
 
     .project img {
-        min-width: 36px;
-        max-width: 36px;
-        max-height: 36px;
-        object-fit: cover;
-        background-color: #FFFFFF;
+        min-width: 38px;
+        max-width: 38px;
+        max-height: 38px;
+    }
+}
+@media (max-width: 370px) {
+    /*Project icon/title links*/
+
+    .project img {
+        min-width: 32px;
+        max-width: 32px;
+        max-height: 32px;
+    }
+}
+@media (max-width: 320px) {
+    /*Project icon/title links*/
+
+    .project img {
+        min-width: 30px;
+        max-width: 30px;
+        max-height: 30px;
     }
     .project h2 {
         font-size: 9px;
     }
-
-    /*Project Info*/
-
-    .techBox h2 {
-        font-size: 8px;
-    }
-    .techBox p {
-        font-size: 7px;
-    }
+    
 }
 
 
