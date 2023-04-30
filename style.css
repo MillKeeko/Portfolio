@@ -46,9 +46,12 @@ header {
     border-left: none;
     border-right: none;
     border-top: none;
-    margin: 2vw auto 2vw auto;
+    margin: 50px auto 50px auto;
     width: 95%;
     max-width: 1080px;
+}
+.sectionBreak h2 {
+    margin: 30px auto 30px auto;
 }
 
 /*Project icon/title links*/
@@ -75,6 +78,33 @@ header {
     width: 95%;
     max-width: 1080px;
 }
+.boxRow {
+    display: flex;
+    flex-direction: row;
+}
+.boxColumn {
+    display: flex;
+    flex-direction: column;
+}
+.smallBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    border-color: #263523;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 1.5vw;
+    margin: 1vw;
+    width: 22vw;
+    height: 22vw;
+    max-width: 244px;
+    max-height: 244px;
+}
+.smallBox ul,
+.smallBox li {
+    background-color: #FFFFFF;
+}
 .descriptionBox {
     display: flex;
     flex-direction: column;
@@ -82,35 +112,20 @@ header {
     border-color: #263523;
     border-style: solid;
     border-radius: 25px;
-    background-color: #FFFFFF;
+    background-color: #D2E7D6;
     padding: 1.5vw;
     margin: auto 1vw auto 1vw;
-    width: 63vw;
-    height: 27vw;
-    max-width: 620px;
-    max-height: 256px;
+    width: 50vw;
+    height: 50vw;
+    max-width: 550px;
+    max-height: 550px;
     text-align: center;
 }
-.techBox {
-    display: flex;
-    flex-direction: column;
-    border: 2px;
-    border-color: #263523;
-    border-style: solid;
-    border-radius: 25px;
-    background-color: #FFFFFF;
-    padding: 1.5vw;
-    margin: auto 1vw auto 1vw;
-    width: 18vw;
-    height: 27vw;
-    max-width: 200px;
-    max-height: 256px;
-    text-align: center;
+.descriptionBox h2, 
+.descriptionBox p {
+    background-color: #D2E7D6;
 }
-.techBox ul,
-.techBox li {
-    background-color: #FFFFFF;
-}
+
 
 
 

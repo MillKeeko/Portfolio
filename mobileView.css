@@ -37,6 +37,7 @@
     .desktopIcons {
         display: none;
     }   
+
     .project h2 {
         font-size: 2.5vw;
     }
@@ -47,11 +48,12 @@
 
     /*Project Info*/
 
-    .techBox h2 {
-        font-size: 15px;
+    .smallBox h2,  
+    .descriptionBox h2 {
+        font-size: 18px;
     }
-    .techBox p {
-        font-size: 13px;
+    .smallBox p {
+        font-size: 14px;
     }
 }
 
@@ -65,10 +67,11 @@
 
     /*Project Info*/
 
-    .techBox h2 {
+    .smallBox h2,  
+    .descriptionBox h2 {
         font-size: 14px;
     }
-    .techBox p {
+    .smallBox p {
         font-size: 12px;
     }
 }
@@ -84,11 +87,12 @@
 
     /*Project Info*/
 
-    .techBox h2 {
-        font-size: 9px;
+    .smallBox h2,  
+    .descriptionBox h2 {
+        font-size: 12px;
     }
-    .techBox p {
-        font-size: 8px;
+    .smallBox p {
+        font-size: 10px;
     }
 }
 
