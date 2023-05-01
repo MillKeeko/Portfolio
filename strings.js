@@ -53,9 +53,11 @@ document.getElementById("projects").textContent = projects;
 const techs = "Technologies";
 const group = "Group Members";
 const desc = "Description";
+const concepts = "Concepts";
 const techsElements = document.getElementsByName("techs");
 const groupElements = document.getElementsByName("group");
 const descElements = document.getElementsByName("desc");
+const conceptsElements = document.getElementsByName("concepts");
 for (let i=0; i<techsElements.length; i++) {
     techsElements[i].textContent = techs;
 }
@@ -64,6 +66,9 @@ for (let i=0; i<groupElements.length; i++) {
 }
 for (let i=0; i<descElements.length; i++) {
     descElements[i].textContent = desc;
+}
+for (let i=0; i<conceptsElements.length; i++) {
+    conceptsElements[i].textContent = concepts;
 }
 
 //  Project 1 
