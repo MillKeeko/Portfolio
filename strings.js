@@ -2,7 +2,7 @@
 
 //  Main Page
 const pageTitle = "WA Portfolio";
-const contentTitle = "Portfolio";
+const contentTitle = "Project Portfolio";
 const myName = "William Anderson";
 document.getElementById("pageTitle").textContent = pageTitle;
 document.getElementById("contentTitle").textContent = contentTitle;
@@ -44,10 +44,6 @@ for (let i=0; i<proj6Elements.length; i++) {
 for (let i=0; i<proj7Elements.length; i++) {
     proj7Elements[i].textContent = proj7;
 }
-
-//  Section Titles
-const projects = "Browse Projects";
-document.getElementById("projects").textContent = projects;
 
 //  Project Info Headers
 const techs = "Technologies";

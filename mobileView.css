@@ -11,6 +11,13 @@
 .projectContainer {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
+    border-top: 3px;
+    border-color: #263523;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 @media (max-width: 1024px) {
