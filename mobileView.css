@@ -39,7 +39,7 @@
     }   
 
     .project h2 {
-        font-size: 2.5vw;
+        font-size: 2.75vw;
     }
     .project:hover {
         max-width: 208px;
@@ -92,7 +92,7 @@
         font-size: 12px;
     }
     .smallBox p {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 
@@ -105,6 +105,7 @@
         max-height: 48px;
     }
 }
+
 @media (max-width: 370px) {
     /*Project icon/title links*/
 
@@ -114,6 +115,7 @@
         max-height: 38px;
     }
 }
+
 @media (max-width: 320px) {
     /*Project icon/title links*/
 

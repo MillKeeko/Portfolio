@@ -16,7 +16,7 @@
     border-radius: 25px;
     background-color: #FFFFFF;
     padding: 1.5vw 1vw 1.5vw 1vw;
-    margin: auto 0.5vw auto 0.5vw;
+    margin: auto 10px auto 10px;
     min-width: 96px;
     min-height: 96px;
     max-width: 96px;
@@ -31,6 +31,7 @@
     border-radius: 25px;
     width: 95%;
     max-width: 1080px;
+    max-height: 
 }
 .project img {
     min-width: 56px;
@@ -47,19 +48,19 @@
     background-color: #FFFFFF;
 }
 .project:hover {
+    min-width: 108px;
+    min-height: 108px;
     max-width: 108px;
     max-height: 108px;
-    margin: auto 0.5vw auto 0.5vw;
 }
-
 
 /*Project Info*/
 
 .smallBox h2 {
     font-size: 24px;
     background-color: #FFFFFF;
-    margin: 10px auto;
-    padding: 10px auto;
+    margin: 5px auto;
+    padding: 5px auto;
 }
 .descriptionBox h2 {
     font-size: 24px;
