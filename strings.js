@@ -46,8 +46,8 @@ for (let i=0; i<proj7Elements.length; i++) {
 }
 
 //  Project Info Headers
-const techs = "Technologies";
-const group = "Group Members";
+const techs = "Tools";
+const group = "Programmers";
 const desc = "Description";
 const concepts = "Concepts";
 const techsElements = document.getElementsByName("techs");
@@ -68,45 +68,87 @@ for (let i=0; i<conceptsElements.length; i++) {
 }
 
 //  Project 1 
-const proj1Tech1 = "C";
-const proj1Tech2 = "Linux";
-const proj1Member1 = "Jesse Rutledge"
+const proj1Tech1 = "ANSI C";
+const proj1Tech2 = "Gedit";
+const proj1Tech3 = "Linux";
+const proj1Concept1 = "Multi-Threading"; 
+const proj1Concept2 = "TCP/IP Communication";
+const proj1Concept3 = "Shared Memory";
+const proj1Concept4 = "Semaphores";
+const proj1Member1 = "William Anderson";
+const proj1Member2 = "Jesse Rutledge";
+const proj1Desc = "A chat-server that can handle up to 10 linux chat-clients, written in ANSI C. The server receives text messages from clients and rebroadcasts them to all other connected clients. Chat-clients have a UI that displays the last 10 messages, and a separate bottom window for outgoing messages.";
 document.getElementById("proj1Tech1").textContent = proj1Tech1;
 document.getElementById("proj1Tech2").textContent = proj1Tech2;
+document.getElementById("proj1Tech3").textContent = proj1Tech3;
+document.getElementById("proj1Concept1").textContent = proj1Concept1;
+document.getElementById("proj1Concept2").textContent = proj1Concept2;
+document.getElementById("proj1Concept3").textContent = proj1Concept3;
+document.getElementById("proj1Concept4").textContent = proj1Concept4;
 document.getElementById("proj1Member1").textContent = proj1Member1;
+document.getElementById("proj1Member2").textContent = proj1Member2;
+document.getElementById("proj1Desc").textContent += proj1Desc;
 
 //  Project 2 
-const proj2Tech1 = "C";
-const proj2Tech2 = "Linux";
-const proj2Member1 = "Addison Phillips"
+const proj2Tech1 = "ANSI C";
+const proj2Tech2 = "Gedit";
+const proj2Tech3 = "Linux";
+const proj2Concept1 = "Task Management";
+const proj2Concept2 = "Shared Memory";
+const proj2Concept3 = "Semaphores";
+const proj2Member1 = "William Anderson";
+const proj2Member2 = "Addison Phillips";
+const proj2Desc = "A program which forks into three processes which create a histogram, written in ANSI C. The first two processes write random letters to a 256-byte circular buffer in shared memory. The third processes reads the circular buffer and updates a histogram showing the amount of each letter it has read. The program will keep writing, reading, and updating the histogram until the user stops it.";
 document.getElementById("proj2Tech1").textContent = proj2Tech1;
 document.getElementById("proj2Tech2").textContent = proj2Tech2;
+document.getElementById("proj2Tech3").textContent = proj2Tech3;
+document.getElementById("proj2Concept1").textContent = proj2Concept1;
+document.getElementById("proj2Concept2").textContent = proj2Concept2;
+document.getElementById("proj2Concept3").textContent = proj2Concept3;
 document.getElementById("proj2Member1").textContent = proj2Member1;
+document.getElementById("proj2Member2").textContent = proj2Member2;
+document.getElementById("proj2Desc").textContent += proj2Desc;
 
 //  Project 3 
 const proj3Tech1 = "C++";
 const proj3Tech2 = "Visual Studio";
-const proj3Member1 = "Addison Phillips"
+const proj3Tech3 = "Windows 10";
+const proj3Member1 = "William Anderson";
+const proj3Member2 = "Addison Phillips";
 document.getElementById("proj3Tech1").textContent = proj3Tech1;
 document.getElementById("proj3Tech2").textContent = proj3Tech2;
+document.getElementById("proj3Tech3").textContent = proj3Tech3;
 document.getElementById("proj3Member1").textContent = proj3Member1;
+document.getElementById("proj3Member2").textContent = proj3Member2;
 
 //  Project 4 
 const proj4Tech1 = "Java";
-const proj4Tech2 = "Android Studio";
-const proj4Member1 = "Jennifer Fritz"
-const proj4Member2 = "Addison Phillips"
+const proj4Tech2 = "XML";
+const proj4Tech3 = "Android Studio";
+const proj4Tech4 = "Windows 10";
+const proj4Member1 = "William Anderson";
+const proj4Member2 = "Jennifer Fritz"
+const proj4Member3 = "Addison Phillips"
 document.getElementById("proj4Tech1").textContent = proj4Tech1;
 document.getElementById("proj4Tech2").textContent = proj4Tech2;
+document.getElementById("proj4Tech3").textContent = proj4Tech3;
+document.getElementById("proj4Tech4").textContent = proj4Tech4;
 document.getElementById("proj4Member1").textContent = proj4Member1;
 document.getElementById("proj4Member2").textContent = proj4Member2;
+document.getElementById("proj4Member3").textContent = proj4Member3;
 
 //  Project 5 
-const proj5Tech1 = "C";
-const proj5Tech2 = "Assembly";
-const proj5Member1 = "N/A";
+const proj5Tech1 = "Arm Assembly";
+const proj5Tech2 = "C";
+const proj5Tech3 = "Visual Studio Code";
+const proj5Tech4 = "Linux";
+const proj5Tech5 = "STM32 Microcontroller";
+const proj5Member1 = "William Anderson";
 document.getElementById("proj5Tech1").textContent = proj5Tech1;
 document.getElementById("proj5Tech2").textContent = proj5Tech2;
+document.getElementById("proj5Tech3").textContent = proj5Tech3;
+document.getElementById("proj5Tech4").textContent = proj5Tech4;
+document.getElementById("proj5Tech5").textContent = proj5Tech5;
 document.getElementById("proj5Member1").textContent = proj5Member1;
 
 
@@ -114,7 +156,7 @@ document.getElementById("proj5Member1").textContent = proj5Member1;
 const proj6Tech1 = "C#";
 const proj6Tech2 = "WPF";
 const proj6Tech3 = "Visual Studio";
-const proj6Member1 = "N/A";
+const proj6Member1 = "William Anderson";
 document.getElementById("proj6Tech1").textContent = proj6Tech1;
 document.getElementById("proj6Tech2").textContent = proj6Tech2;
 document.getElementById("proj6Tech3").textContent = proj6Tech3;
@@ -125,9 +167,10 @@ const proj7Tech1 = "C#";
 const proj7Tech2 = "MySQL";
 const proj7Tech3 = "WPF";
 const proj7Tech4 = "Visual Studio";
-const proj7Member1 = "Addison Phillips";
-const proj7Member2 = "Derek Owusu-Addai";
-const proj7Member3 = "Isaac Ribeiro Leao";
+const proj7Member1 = "William Anderson";
+const proj7Member2 = "Addison Phillips";
+const proj7Member3 = "Derek Owusu-Addai";
+const proj7Member4 = "Isaac Ribeiro Leao";
 document.getElementById("proj7Tech1").textContent = proj7Tech1;
 document.getElementById("proj7Tech2").textContent = proj7Tech2;
 document.getElementById("proj7Tech3").textContent = proj7Tech3;
@@ -135,3 +178,4 @@ document.getElementById("proj7Tech4").textContent = proj7Tech4;
 document.getElementById("proj7Member1").textContent = proj7Member1;
 document.getElementById("proj7Member2").textContent = proj7Member2;
 document.getElementById("proj7Member3").textContent = proj7Member3;
+document.getElementById("proj7Member4").textContent = proj7Member4;

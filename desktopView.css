@@ -64,7 +64,7 @@
 .smallBox h2 {
     font-size: 24px;
     background-color: #FFFFFF;
-    margin: 5px auto;
+    margin: 5px auto 10px auto;
     padding: 5px auto;
 }
 .descriptionBox h2 {
@@ -74,7 +74,6 @@
     padding: 10px auto;
 }
 .smallBox p {
-    font-size: 18px;
     text-align: left;
     background-color: #FFFFFF;
 }

@@ -54,13 +54,15 @@
     }
 
     /*Project Info*/
-
+    .smallBox {
+        width: 24vw;
+    }
+    .descriptionBox {
+        width: 40vw;
+    }
     .smallBox h2,  
     .descriptionBox h2 {
         font-size: 18px;
-    }
-    .smallBox p {
-        font-size: 14px;
     }
 }
 
@@ -78,9 +80,6 @@
     .descriptionBox h2 {
         font-size: 14px;
     }
-    .smallBox p {
-        font-size: 12px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -97,9 +96,6 @@
     .smallBox h2,  
     .descriptionBox h2 {
         font-size: 12px;
-    }
-    .smallBox p {
-        font-size: 11px;
     }
 }
 

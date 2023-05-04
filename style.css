@@ -24,6 +24,7 @@ p {
     width: 90%;
     margin: auto;
     max-width: 1023px;
+    font-size: 16px;
 }
 
 /*Menu*/
@@ -95,13 +96,9 @@ header {
     background-color: #FFFFFF;
     padding: 10px;
     margin: 10px;
-    width: 16vw;
+    width: 24vw;
     max-width: 244px;
-    max-height: 244px;
-}
-.smallBox ul,
-.smallBox li {
-    background-color: #FFFFFF;
+    overflow: auto;
 }
 .descriptionBox {
     display: flex;
@@ -113,14 +110,12 @@ header {
     background-color: #D2E7D6;
     padding: 15px;
     margin: auto 10px;
-    width: 48vw;
+    width: 40vw;
     max-width: 550px;
-    max-height: 550px;
+    overflow: auto;
 }
 .descriptionBox h2, 
-.descriptionBox p,
-.descriptionBox ul,
-.descriptionBox li {
+.descriptionBox p {
     background-color: #D2E7D6;
     text-align: left;
 }
