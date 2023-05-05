@@ -54,10 +54,22 @@
     }
 
     /*Project Info*/
+
+    .smallBox {
+        width: 30vw;
+    }
+    .descriptionBox {
+        width: 69vw;
+    }
     .smallBox h2,  
     .descriptionBox h2 {
-        font-size: 18px;
+        font-size: 22px;
     }
+    .smallBox p,  
+    .descriptionBox p {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -72,6 +84,10 @@
 
     .smallBox h2,  
     .descriptionBox h2 {
+        font-size: 18px;
+    }
+    .smallBox p,  
+    .descriptionBox p {
         font-size: 14px;
     }
 }
@@ -86,9 +102,13 @@
     }
 
     /*Project Info*/
-
+    
     .smallBox h2,  
     .descriptionBox h2 {
+        font-size: 14px;
+    }
+    .smallBox p,  
+    .descriptionBox p {
         font-size: 12px;
     }
 }
@@ -100,6 +120,15 @@
         min-width: 48px;
         max-width: 48px;
         max-height: 48px;
+    }
+
+    /*Project Info*/
+
+    .smallBox {
+        width: 33vw;
+    }
+    .descriptionBox {
+        width: 76vw;
     }
 }
 

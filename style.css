@@ -18,13 +18,13 @@ h2 {
     font-size: 24px;
     text-align: center;
     padding: 10px auto 10px auto;
-    margin: 10px auto 10px auto;
+    margin: 15px auto 15px auto;
 }
 p {
     width: 90%;
-    margin: auto;
+    margin: 5px auto 5px auto;
     max-width: 1023px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*Menu*/
@@ -98,9 +98,9 @@ header {
     border-radius: 25px;
     background-color: #FFFFFF;
     padding: 10px;
-    margin: 10px;
-    width: 28vw;
-    max-width: 302px;
+    margin: 10px 5px;
+    width: 26vw;
+    max-width: 281px;
     overflow: auto;
 }
 .descriptionBox {
@@ -121,7 +121,7 @@ header {
 .descriptionBox p {
     background-color: #D2E7D6;
     text-align: left;
-    margin: 5px auto 10px auto;
+    margin: auto;
     padding: 5px auto;
 }
 
