@@ -54,12 +54,6 @@
     }
 
     /*Project Info*/
-    .smallBox {
-        width: 24vw;
-    }
-    .descriptionBox {
-        width: 40vw;
-    }
     .smallBox h2,  
     .descriptionBox h2 {
         font-size: 18px;

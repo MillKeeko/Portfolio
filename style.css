@@ -78,13 +78,16 @@ header {
     width: 95%;
     max-width: 1080px;
 }
-.boxRow {
-    display: flex;
-    flex-direction: row;
-}
 .boxColumn {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.boxRow {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 .smallBox {
     display: flex;
@@ -96,7 +99,8 @@ header {
     background-color: #FFFFFF;
     padding: 10px;
     margin: 10px;
-    width: 24vw;
+    width: 28vw;
+    max-width: 302px;
     overflow: auto;
 }
 .descriptionBox {
@@ -108,8 +112,9 @@ header {
     border-radius: 25px;
     background-color: #D2E7D6;
     padding: 15px;
-    margin: auto 10px;
-    width: 40vw;
+    margin: auto;
+    width: 60vw;
+    max-width: 648px;
     overflow: auto;
 }
 .descriptionBox h2, 
