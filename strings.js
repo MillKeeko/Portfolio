@@ -112,12 +112,22 @@ document.getElementById("proj2Desc").textContent += proj2Desc;
 //  Project 3 
 const proj3Tech1 = "C++";
 const proj3Tech2 = "Visual Studio";
+const proj3Tech3 = "MD5";
+const proj3Concept1 = "UDP";
+const proj3Concept2 = "Metadata";
+const proj3Concept3 = "Hash Checksum";
+const proj3Desc = "A program which allows the user to send a file (ASCII or binary) over an open-source \"reliable\" UDP. The program reads the file, packages the data into individual packets, sends the packets to the client, and saves the completed file. An MD5 hash, another open-source project, is generated and used as a checksum to ensure the file was received and ordered accurately.";
 const proj3Member1 = "William Anderson";
 const proj3Member2 = "Addison Phillips";
 document.getElementById("proj3Tech1").textContent = proj3Tech1;
 document.getElementById("proj3Tech2").textContent = proj3Tech2;
+document.getElementById("proj3Tech3").textContent = proj3Tech3;
+document.getElementById("proj3Concept1").textContent = proj3Concept1;
+document.getElementById("proj3Concept2").textContent = proj3Concept2;
+document.getElementById("proj3Concept3").textContent = proj3Concept3;
 document.getElementById("proj3Member1").textContent = proj3Member1;
 document.getElementById("proj3Member2").textContent = proj3Member2;
+document.getElementById("proj3Desc").textContent += proj3Desc;
 
 //  Project 4 
 const proj4Tech1 = "Java";
@@ -129,10 +139,10 @@ const proj4Concept1 = "Asynchronous Tasks";
 const proj4Concept2 = "Local Database";
 const proj4Concept3 = "API Communication";
 const proj4Concept4 = "Broadcast Receivers";
-const proj4Concept5 = "Android Notifications"
+const proj4Concept5 = "Android Notifications";
 const proj4Member1 = "William Anderson";
-const proj4Member2 = "Jennifer Fritz"
-const proj4Member3 = "Addison Phillips"
+const proj4Member2 = "Jennifer Fritz";
+const proj4Member3 = "Addison Phillips";
 const proj4Desc1 = "An android application made over the course of three months that walks the user through booking a trip in Canada. The user navigates multiple screens to enter and confirm details about the trip from a preset list of cities. The trip details are then saved in a SQLite database.";
 const proj4Desc2 = "Depending on the city chosen, JSON data for local activities are pulled from a node.js server. If the user selects an activity a Google Maps api will show its location on the map. The user can then select activities for their trip which are subsequently saved into the local database. The user can make notes about the trip which will also be saved to the database.";
 const proj4Desc3 = "Notifications are sent to the android device through the use of a broadcastReceiver. When the phone boots up a notification is sent alerting the user about the closest trip currently booked in the database. A second notification is sent whenever a new trip is created.";
